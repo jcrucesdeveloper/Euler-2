@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quotes_from_euler">
+        <item>“Logic is the foundation of the certainty of all the knowledge we acquire.”</item>
+        <item>“Nothing takes place in the world whose meaning is not that of some maximum or minimum.”</item>
+        <item>“Madam, I have just come from a country where people are hanged if they talk.”</item>
+        <item>“e^(iπ)+1 = 0”</item>
+        <item>“For the sake of brevity, we will always represent this number 2.718281828459… by the letter e.”</item>
+        <item>“Now I will have less distraction.“</item>
+        <item>“We pass by imperceptible gradations from the brute to the savage and from the savage to Euler and Newton.“</item>
+        <item>“The person who did most to give to analysis the generality and symmetry which are now its pride, was also the person who made mechanics analytical; I mean Euler.“</item>
+        <item>“Euler calculated without any apparent effort, just as men breathe, as eagles sustain themselves in the air.“</item>
+        <item>“Euler who could have been called almost without metaphor, and certainly without hyperbole, analysis incarnate.“</item>
+    </string-array>
+
+
+</resources>

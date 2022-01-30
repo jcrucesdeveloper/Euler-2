@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="next_level_phrases">
+        <item>CONGRATULATIONS!</item>
+        <item>NICE ONE!</item>
+        <item>CORRECT ANSWER!</item>
+        <item>WELL DONE</item>
+        <item>YOU NAILED IT!</item>
+        <item>GREAT WORK</item>
+    </string-array>
+</resources>
