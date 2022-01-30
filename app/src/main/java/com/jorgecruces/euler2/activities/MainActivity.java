@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //initializeAds();
+        initializeAds();
 
         // Title and Quote
         textViewQuote = (TextView) findViewById(R.id.textViewQuote);

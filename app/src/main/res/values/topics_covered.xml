@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topic_1">- ARITHMETIC: BASIC ADDITION</string>
+    <string name="topic_2">- ARITHMETIC: BASIC SUBTRACTION</string>
+    <string name="topic_3">- ARITHMETIC: BASIC MULTIPLICATION</string>
+    <string name="topic_4">- ARITHMETIC: BASIC DIVISION</string>
+    <string name="topic_5">- ALGEBRA: FIRST ORDER EQUATIONS</string>
+</resources>

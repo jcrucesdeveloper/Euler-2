@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Euler I</string>
-    <string name="title">Euler I</string>
+    <string name="app_name">Euler II</string>
     <string name="quote_place_holder">Logic is the foundation of the certainty of all the knowledge we acquire</string>
     <string name="level">lastLevel</string>
     <string name="ads">showAds</string>
+    <string name="quoteLevelNumber">Pure mathematics is, in its way, the poetry of logical ideas.</string>
+    <string name="quoteWriterLevelNumber">- Albert Einstein</string>
 </resources>

@@ -47,8 +47,7 @@
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="40sp"
-                android:textStyle="bold" />
+                android:textSize="40sp" />
 
 
             <TextView
@@ -61,8 +60,7 @@
                 android:text="1"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="40sp"
-                android:textStyle="bold" />
+                android:textSize="40sp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -84,7 +82,8 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/background_question"
+            android:background="@color/questionLabelColor"
+            android:elevation="30dp"
             app:layout_constraintBottom_toTopOf="@+id/gridLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -134,16 +133,17 @@
 
             <TextView
                 android:id="@+id/textViewAlternative1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:layout_margin="5dp"
-                android:background="@drawable/background_question"
+                android:background="@color/alternativeColor"
+                android:elevation="15dp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="fill_horizontal|center_vertical"
-                android:text="283"
+                android:onClick="onClickAlternative"
+                android:text="5"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:onClick="onClickAlternative"
                 android:textSize="34sp"
                 app:layout_column="0"
                 app:layout_columnWeight="1"
@@ -154,17 +154,17 @@
 
             <TextView
                 android:id="@+id/textViewAlternative2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:layout_margin="5dp"
-                android:background="@drawable/background_question"
+                android:background="@color/alternativeColor"
                 android:elevation="15dp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="fill_horizontal|center_vertical"
-                android:text="6"
+                android:onClick="onClickAlternative"
+                android:text="5"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:onClick="onClickAlternative"
                 android:textSize="34sp"
                 app:layout_column="1"
                 app:layout_columnWeight="1"
@@ -176,12 +176,14 @@
 
             <TextView
                 android:id="@+id/textViewAlternative3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:layout_margin="5dp"
-                android:background="@drawable/background_question"
+                android:background="@color/alternativeColor"
+                android:elevation="15dp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="fill_horizontal|center_vertical"
+                android:onClick="onClickAlternative"
                 android:text="5"
                 android:textAlignment="center"
                 android:textColor="@color/white"
@@ -189,25 +191,25 @@
                 app:layout_column="0"
                 app:layout_columnWeight="1"
                 app:layout_gravity="fill_horizontal|center_vertical|fill_vertical"
-                android:onClick="onClickAlternative"
                 app:layout_row="1"
                 app:layout_rowWeight="1" />
 
             <TextView
                 android:id="@+id/textViewAlternative4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:layout_margin="5dp"
-                android:background="@drawable/background_question"
+                android:background="@color/alternativeColor"
+                android:elevation="15dp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="fill_horizontal|center_vertical"
-                android:text="9"
+                android:onClick="onClickAlternative"
+                android:text="5"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="34sp"
                 app:layout_column="1"
                 app:layout_columnWeight="1"
-                android:onClick="onClickAlternative"
                 app:layout_gravity="fill|fill_horizontal|center_vertical"
                 app:layout_row="1"
                 app:layout_rowWeight="1" />
