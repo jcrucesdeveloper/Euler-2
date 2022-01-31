@@ -3,6 +3,6 @@
     <string name="quote_place_holder">Logic is the foundation of the certainty of all the knowledge we acquire</string>
     <string name="level">lastLevel</string>
     <string name="ads">showAds</string>
-    <string name="quoteLevelNumber">Pure mathematics is, in its way, the poetry of logical ideas.</string>
-    <string name="quoteWriterLevelNumber">- Albert Einstein</string>
+    <string name="quoteLevelNumber">There should be no such thing as boring mathematics</string>
+    <string name="quoteWriterLevelNumber">- Edsger W. Dijkstra</string>
 </resources>
