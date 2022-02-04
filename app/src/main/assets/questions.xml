@@ -284,28 +284,27 @@
     </question>
 
     <question number="36">
-        <questionLabel>18*4</questionLabel>
-        <alternative1>52</alternative1>
-        <alternative2>88</alternative2>
-        <alternative3>78</alternative3>
-        <correctAlternative>72</correctAlternative>
+        <questionLabel>4(x - 6) = 4</questionLabel>
+        <alternative1>4</alternative1>
+        <alternative2>8</alternative2>
+        <alternative3>7</alternative3>
+        <correctAlternative>6</correctAlternative>
     </question>
 
     <question number="37">
-        <questionLabel>33*4</questionLabel>
-        <alternative1>122</alternative1>
-        <alternative2>144</alternative2>
-        <alternative3>126</alternative3>
-        <correctAlternative>132</correctAlternative>
+        <questionLabel>-9(-9 +3x) = -189</questionLabel>
+        <alternative1>11</alternative1>
+        <alternative2>8</alternative2>
+        <alternative3>9</alternative3>
+        <correctAlternative>10</correctAlternative>
     </question>
 
-
     <question number="38">
-        <questionLabel>27 * 7</questionLabel>
-        <alternative1>209</alternative1>
-        <alternative2>159</alternative2>
-        <alternative3>199</alternative3>
-        <correctAlternative>189</correctAlternative>
+        <questionLabel>2(6x - 3) = 54</questionLabel>
+        <alternative1>7</alternative1>
+        <alternative2>4</alternative2>
+        <alternative3>6</alternative3>
+        <correctAlternative>5</correctAlternative>
     </question>
 
     <question number="39">
