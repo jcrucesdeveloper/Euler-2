@@ -496,43 +496,88 @@
         <correctAlternative>12</correctAlternative>
     </question>
 
-    <question number="">
-        <questionLabel></questionLabel>
-        <alternative1></alternative1>
-        <alternative2></alternative2>
-        <alternative3></alternative3>
-        <correctAlternative></correctAlternative>
-    </question>
-    <question number="">
-        <questionLabel></questionLabel>
-        <alternative1></alternative1>
-        <alternative2></alternative2>
-        <alternative3></alternative3>
-        <correctAlternative></correctAlternative>
-    </question>
-    <question number="">
-        <questionLabel></questionLabel>
-        <alternative1></alternative1>
-        <alternative2></alternative2>
-        <alternative3></alternative3>
-        <correctAlternative></correctAlternative>
-    </question>
-    <question number="">
-        <questionLabel></questionLabel>
-        <alternative1></alternative1>
-        <alternative2></alternative2>
-        <alternative3></alternative3>
-        <correctAlternative></correctAlternative>
-    </question>
-    <question number="">
-        <questionLabel></questionLabel>
-        <alternative1></alternative1>
-        <alternative2></alternative2>
-        <alternative3></alternative3>
-        <correctAlternative></correctAlternative>
+    <question number="61">
+        <questionLabel>-6x - 87 = -7 - 14x</questionLabel>
+        <alternative1>15</alternative1>
+        <alternative2>13</alternative2>
+        <alternative3>12</alternative3>
+        <correctAlternative>10</correctAlternative>
     </question>
 
-    <question number="51">
+    <question number="62">
+        <questionLabel>-15x - 7 = -25 -6x</questionLabel>
+        <alternative1>4</alternative1>
+        <alternative2>5</alternative2>
+        <alternative3>3</alternative3>
+        <correctAlternative>2</correctAlternative>
+    </question>
+
+    <question number="63">
+        <questionLabel>-38 - 7x = -17x - 8</questionLabel>
+        <alternative1>-4</alternative1>
+        <alternative2>4</alternative2>
+        <alternative3>-3</alternative3>
+        <correctAlternative>3</correctAlternative>
+    </question>
+
+    <question number="64">
+        <questionLabel>10x +47 = -16x + 7</questionLabel>
+        <alternative1>7</alternative1>
+        <alternative2>5</alternative2>
+        <alternative3>4</alternative3>
+        <correctAlternative>9</correctAlternative>
+    </question>
+
+    <question number="65">
+        <questionLabel>-6x - 67 = -7 - 16x</questionLabel>
+        <alternative1>2</alternative1>
+        <alternative2>4</alternative2>
+        <alternative3>3</alternative3>
+        <correctAlternative>6</correctAlternative>
+    </question>
+
+
+    <question number="66">
+        <questionLabel>-10x - 22 = -12x - 6</questionLabel>
+        <alternative1>9</alternative1>
+        <alternative2>5</alternative2>
+        <alternative3>4</alternative3>
+        <correctAlternative>8</correctAlternative>
+    </question>
+
+    <question number="67">
+        <questionLabel>3x - 34 = -4x + 8</questionLabel>
+        <alternative1>12</alternative1>
+        <alternative2>5</alternative2>
+        <alternative3>7</alternative3>
+        <correctAlternative>6</correctAlternative>
+    </question>
+
+    <question number="68">
+        <questionLabel>-4x - 107 = -13x + 1</questionLabel>
+        <alternative1>10</alternative1>
+        <alternative2>9</alternative2>
+        <alternative3>8</alternative3>
+        <correctAlternative>12</correctAlternative>
+    </question>
+
+    <question number="69">
+        <questionLabel>-72 - 3x = -8x - 7</questionLabel>
+        <alternative1>15</alternative1>
+        <alternative2>12</alternative2>
+        <alternative3>11</alternative3>
+        <correctAlternative>13</correctAlternative>
+    </question>
+
+    <question number="70">
+        <questionLabel>-4 -5x = 5x - 6</questionLabel>
+        <alternative1>8</alternative1>
+        <alternative2>4</alternative2>
+        <alternative3>3</alternative3>
+        <correctAlternative>6</correctAlternative>
+    </question>
+
+    <question number="71">
         <questionLabel>4(c +4) = 3(c + 6)</questionLabel>
         <alternative1>4</alternative1>
         <alternative2>5</alternative2>
@@ -540,6 +585,201 @@
         <correctAlternative>2</correctAlternative>
     </question>
 
+    <question number="72">
+        <questionLabel>4(7a - 1) = 4(6a + 5)</questionLabel>
+        <alternative1>2</alternative1>
+        <alternative2>3</alternative2>
+        <alternative3>9</alternative3>
+        <correctAlternative>6</correctAlternative>
+    </question>
+
+    <question number="73">
+        <questionLabel>2(6k +3) = 6(k + 2)</questionLabel>
+        <alternative1>6</alternative1>
+        <alternative2>3</alternative2>
+        <alternative3>2</alternative3>
+        <correctAlternative>1</correctAlternative>
+    </question>
+
+    <question number="74">
+        <questionLabel>4(2a - 4) = 2(3a +7)</questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative>15</correctAlternative>
+    </question>
+
+    <question number="75">
+        <questionLabel>2(7p - 10) = 6(2p + 8)</questionLabel>
+        <alternative1>27</alternative1>
+        <alternative2>35</alternative2>
+        <alternative3>12</alternative3>
+        <correctAlternative>34</correctAlternative>
+    </question>
+
+    <question number="76">
+        <questionLabel>4(3t + 16) = 8(5t - 6)</questionLabel>
+        <alternative1>12</alternative1>
+        <alternative2>9</alternative2>
+        <alternative3>8</alternative3>
+        <correctAlternative>4</correctAlternative>
+    </question>
+
+    <question number="77">
+        <questionLabel>5(8n + 12) = 10(-13 + 3n)</questionLabel>
+        <alternative1>21</alternative1>
+        <alternative2>-14</alternative2>
+        <alternative3>-13</alternative3>
+        <correctAlternative>-19</correctAlternative>
+    </question>
+
+    <question number="78">
+        <questionLabel>3(9v + 9) = 9(18 + 4v)</questionLabel>
+        <alternative1>-5</alternative1>
+        <alternative2>-25</alternative2>
+        <alternative3>-10</alternative3>
+        <correctAlternative>-15</correctAlternative>
+    </question>
+
+    <question number="79">
+        <questionLabel>4(8t + 16) = 4(9t - 8)</questionLabel>
+        <alternative1>20</alternative1>
+        <alternative2>12</alternative2>
+        <alternative3>13</alternative3>
+        <correctAlternative>24</correctAlternative>
+    </question>
+
+    <question number="80">
+        <questionLabel>4(-17 + 2c) = 2(2c - 12)</questionLabel>
+        <alternative1>21</alternative1>
+        <alternative2>12</alternative2>
+        <alternative3>13</alternative3>
+        <correctAlternative>11</correctAlternative>
+    </question>
+
+    <question number="81">
+        <questionLabel>10(2j - 11) = 10(-21 - 8j)</questionLabel>
+        <alternative1>-5</alternative1>
+        <alternative2>1</alternative2>
+        <alternative3>-2</alternative3>
+        <correctAlternative>-1</correctAlternative>
+    </question>
+
+    <question number="82">
+        <questionLabel>2(3q + 17) = 5(q - 14)</questionLabel>
+        <alternative1>106</alternative1>
+        <alternative2>-15</alternative2>
+        <alternative3>-93</alternative3>
+        <correctAlternative>-104</correctAlternative>
+    </question>
+
+    <question number="83">
+        <questionLabel>2(5q - 1) = 9(q - 11)</questionLabel>
+        <alternative1>96</alternative1>
+        <alternative2>89</alternative2>
+        <alternative3>-99</alternative3>
+        <correctAlternative>-97</correctAlternative>
+    </question>
+
+    <question number="84">
+        <questionLabel>3(9v + 13) = 4(5v - 20)</questionLabel>
+        <alternative1>28</alternative1>
+        <alternative2>29</alternative2>
+        <alternative3>15</alternative3>
+        <correctAlternative>-17</correctAlternative>
+    </question>
+
+    <question number="85">
+        <questionLabel>4(8u - 20) = 9(4u - 4)</questionLabel>
+        <alternative1>15</alternative1>
+        <alternative2>10</alternative2>
+        <alternative3>12</alternative3>
+        <correctAlternative>-11</correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+    <question number="">
+        <questionLabel></questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
     <question number="52">
         <questionLabel>4(7a - 1) = 4(6a + 5)</questionLabel>
         <alternative1>2</alternative1>
