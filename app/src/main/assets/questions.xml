@@ -308,105 +308,103 @@
     </question>
 
     <question number="39">
-        <questionLabel>28*7</questionLabel>
-        <alternative1>186</alternative1>
-        <alternative2>146</alternative2>
-        <alternative3>206</alternative3>
-        <correctAlternative>196</correctAlternative>
+        <questionLabel>-7(-9 + 2x) = -63</questionLabel>
+        <alternative1>11</alternative1>
+        <alternative2>8</alternative2>
+        <alternative3>-9</alternative3>
+        <correctAlternative>9</correctAlternative>
     </question>
 
     <question number="40">
-        <questionLabel>39*9</questionLabel>
-        <alternative1>201</alternative1>
-        <alternative2>271</alternative2>
-        <alternative3>341</alternative3>
-        <correctAlternative>351</correctAlternative>
-    </question>
-
-    <!-- COMBINATION MULTIPLICATION + ADDITION + SUBTRACTION 41-47 -->
-
-    <question number="41">
-        <questionLabel>15*6 + 1</questionLabel>
-        <alternative1>81</alternative1>
-        <alternative2>99</alternative2>
-        <alternative3>93</alternative3>
-        <correctAlternative>91</correctAlternative>
-    </question>
-
-    <question number="42">
-        <questionLabel>43*3 + 9</questionLabel>
-        <alternative1>136</alternative1>
-        <alternative2>128</alternative2>
-        <alternative3>142</alternative3>
-        <correctAlternative>138</correctAlternative>
-    </question>
-
-    <question number="43">
-        <questionLabel>22*5 + 2*12</questionLabel>
-        <alternative1>154</alternative1>
-        <alternative2>102</alternative2>
-        <alternative3>122</alternative3>
-        <correctAlternative>134</correctAlternative>
-    </question>
-
-
-    <question number="44">
-        <questionLabel>24*2 + 15*3</questionLabel>
-        <alternative1>94</alternative1>
-        <alternative2>83</alternative2>
-        <alternative3>96</alternative3>
-        <correctAlternative>93</correctAlternative>
-    </question>
-
-    <question number="45">
-        <questionLabel>32*3 - 8</questionLabel>
-        <alternative1>98</alternative1>
-        <alternative2>89</alternative2>
-        <alternative3>87</alternative3>
-        <correctAlternative>88</correctAlternative>
-    </question>
-
-
-    <question number="46">
-        <questionLabel>6*12*2</questionLabel>
-        <alternative1>124</alternative1>
-        <alternative2>134</alternative2>
-        <alternative3>160</alternative3>
-        <correctAlternative>144</correctAlternative>
-    </question>
-
-    <question number="47">
-        <questionLabel>(-4)*5 + 28 - 7 </questionLabel>
-        <alternative1>41</alternative1>
-        <alternative2>3</alternative2>
+        <questionLabel>-6(x - 8) = 42</questionLabel>
+        <alternative1>2</alternative1>
+        <alternative2>6</alternative2>
         <alternative3>-2</alternative3>
         <correctAlternative>1</correctAlternative>
     </question>
 
-    <!-- EXPONENTS 48-54 -->
+    <question number="41">
+        <questionLabel>-4(-6 + 5x) = -56</questionLabel>
+        <alternative1>3</alternative1>
+        <alternative2>6</alternative2>
+        <alternative3>5</alternative3>
+        <correctAlternative>4</correctAlternative>
+    </question>
+
+    <question number="42">
+        <questionLabel>-180 = -9(-7 +3x)</questionLabel>
+        <alternative1>8</alternative1>
+        <alternative2>19</alternative2>
+        <alternative3>12</alternative3>
+        <correctAlternative>9</correctAlternative>
+    </question>
+
+    <question number="43">
+        <questionLabel>5(10 - 6x) = -190</questionLabel>
+        <alternative1>-9</alternative1>
+        <alternative2>-6</alternative2>
+        <alternative3>6</alternative3>
+        <correctAlternative>8</correctAlternative>
+    </question>
+
+
+    <question number="44">
+        <questionLabel>184 = -4(-6 - 2x)</questionLabel>
+        <alternative1>22</alternative1>
+        <alternative2>24</alternative2>
+        <alternative3>15</alternative3>
+        <correctAlternative>20</correctAlternative>
+    </question>
+
+    <question number="45">
+        <questionLabel>155 = -5(-3 - 7x)</questionLabel>
+        <alternative1>6</alternative1>
+        <alternative2>2</alternative2>
+        <alternative3>3</alternative3>
+        <correctAlternative>4</correctAlternative>
+    </question>
+
+
+    <question number="46">
+        <questionLabel>-10(-4x - 5) = 430</questionLabel>
+        <alternative1></alternative1>
+        <alternative2></alternative2>
+        <alternative3></alternative3>
+        <correctAlternative></correctAlternative>
+    </question>
+
+    <question number="47">
+        <questionLabel>-640 = 10(-1 - 7x)</questionLabel>
+        <alternative1>-8</alternative1>
+        <alternative2>11</alternative2>
+        <alternative3>8</alternative3>
+        <correctAlternative>9</correctAlternative>
+    </question>
+
 
     <question number="48">
-        <questionLabel>4 + 6^2</questionLabel>
+        <questionLabel>-5(6 - 3x) = 210</questionLabel>
         <alternative1>42</alternative1>
         <alternative2>38</alternative2>
         <alternative3>36</alternative3>
-        <correctAlternative>40</correctAlternative>
+        <correctAlternative>16</correctAlternative>
     </question>
 
 
     <question number="49">
-        <questionLabel>2^4 + 7</questionLabel>
-        <alternative1>24</alternative1>
-        <alternative2>19</alternative2>
-        <alternative3>25</alternative3>
-        <correctAlternative>23</correctAlternative>
+        <questionLabel>6(3x - 2) = 204</questionLabel>
+        <alternative1>21</alternative1>
+        <alternative2>9</alternative2>
+        <alternative3>13</alternative3>
+        <correctAlternative>12</correctAlternative>
     </question>
 
     <question number="50">
-        <questionLabel>(-3)^2 + 18</questionLabel>
-        <alternative1>9</alternative1>
-        <alternative2>29</alternative2>
-        <alternative3>38</alternative3>3        <correctAlternative>27</correctAlternative>
+        <questionLabel>-5(10x -4) = -430</questionLabel>
+        <alternative1>10</alternative1>
+        <alternative2>7</alternative2>
+        <alternative3>8</alternative3>
+        <correctAlternative>9</correctAlternative>
     </question>
 
     <question number="51">
