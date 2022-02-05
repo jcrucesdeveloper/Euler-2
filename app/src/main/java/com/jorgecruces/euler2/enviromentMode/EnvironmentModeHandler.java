@@ -7,10 +7,9 @@ public class EnvironmentModeHandler {
 
     private static final EnvironmentModeHandler emd = new EnvironmentModeHandler();
 
-
     // EnvironmentModes
 
-    private boolean testMode = true;
+    private final boolean testMode = true;
 
     private EnvironmentModeHandler() {}
 

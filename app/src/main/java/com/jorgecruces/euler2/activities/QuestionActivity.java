@@ -20,6 +20,7 @@ import com.facebook.ads.AdError;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
 import com.jorgecruces.euler2.R;
+import com.jorgecruces.euler2.enviromentMode.EnvironmentModeHandler;
 import com.jorgecruces.euler2.gameLogic.Question;
 import com.jorgecruces.euler2.gameLogic.XmlParserActivity;
 import com.jorgecruces.euler2.sound.MediaPlayerReproducer;
@@ -446,8 +447,9 @@ public class QuestionActivity extends XmlParserActivity
      */
     public void answeredIncorrectly() {
 
+        boolean testMode = EnvironmentModeHandler.getEnvironmentModeHandler().testMode();
         // Ad
-        if (adReady && interstitialAd != null)
+        if ( (adReady && interstitialAd != null) && !testMode)
         {
             interstitialAd.show();
         }
