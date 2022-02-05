@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.widget.Button;
 
 import com.jorgecruces.euler2.activities.QuestionActivity;
+import com.jorgecruces.euler2.enviromentMode.EnvironmentModeHandler;
 import com.jorgecruces.euler2.sound.MediaPlayerReproducer;
 
 
@@ -60,7 +61,10 @@ public class LevelButton extends Button {
      */
     public void updateButton()
     {
-        if (this.number <= this.lastLevelNumber)
+        // Check if we are testing or not
+        boolean testMode = EnvironmentModeHandler.getEnvironmentModeHandler().testMode();
+
+        if (this.number <= this.lastLevelNumber || testMode)
         {
             this.setBackgroundColor(Color.WHITE);
             this.setEnabled(true);
