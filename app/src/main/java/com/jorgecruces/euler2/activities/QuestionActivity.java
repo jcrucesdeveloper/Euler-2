@@ -117,7 +117,7 @@ public class QuestionActivity extends XmlParserActivity
      */
     public void initializeInterstitialAd()
     {
-        interstitialAd = new InterstitialAd(this, "YOUR_PLACEMENT_ID");
+        interstitialAd = new InterstitialAd(this, "642527100333609_642529203666732");
         // Create listeners for the Interstitial Ad
         InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
             @Override

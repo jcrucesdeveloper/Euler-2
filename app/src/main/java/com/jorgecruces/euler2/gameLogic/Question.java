@@ -7,12 +7,12 @@ public class Question
 {
 
     private int questionNumber;
-    private String questionTitle;
-    private String questionLabel;
-    private String alternative1;
-    private String alternative2;
-    private String alternative3;
-    private String correctAlternative;
+    private final String questionTitle;
+    private final String questionLabel;
+    private final String alternative1;
+    private final String alternative2;
+    private final String alternative3;
+    private final String correctAlternative;
 
 
     /**
