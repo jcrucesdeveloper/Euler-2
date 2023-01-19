@@ -15,10 +15,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.facebook.ads.Ad;
-import com.facebook.ads.AdError;
-import com.facebook.ads.InterstitialAd;
-import com.facebook.ads.InterstitialAdListener;
+import androidx.annotation.NonNull;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.jorgecruces.euler2.R;
 import com.jorgecruces.euler2.enviromentMode.EnvironmentModeHandler;
 import com.jorgecruces.euler2.gameLogic.Question;
@@ -57,8 +59,8 @@ public class QuestionActivity extends XmlParserActivity
 
 
     // Ads
-    private InterstitialAd interstitialAd;
     private boolean adReady;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -82,9 +84,9 @@ public class QuestionActivity extends XmlParserActivity
         int numbersLevelPlayed = getNumbersLevelPlayed();
         if (numbersLevelPlayed >= maxNumberLevelsForAds)
         {
-            if (interstitialAd != null && adReady)
+            if (mInterstitialAd != null && adReady)
             {
-                interstitialAd.show();
+                mInterstitialAd.show(this);
             }
             saveSharedPreferencesLevelsPlayed(0);
         }
@@ -117,58 +119,24 @@ public class QuestionActivity extends XmlParserActivity
      */
     public void initializeInterstitialAd()
     {
-        interstitialAd = new InterstitialAd(this, "642527100333609_642529203666732");
-        // Create listeners for the Interstitial Ad
-        InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
-            @Override
-            public void onInterstitialDisplayed(Ad ad) {
-                // Interstitial ad displayed callback
-            }
+        AdRequest adRequest = new AdRequest.Builder().build();
+        InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest,
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                        mInterstitialAd = interstitialAd;
+                        adReady = true;
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        mInterstitialAd = null;
+                    }
+                });
 
 
-            @Override
-            public void onInterstitialDismissed(Ad ad) {
-                // Interstitial dismissed callback
-            }
-
-            @Override
-            public void onError(Ad ad, AdError adError) {
-                // Ad error callback
-            }
-
-            @Override
-            public void onAdLoaded(Ad ad) {
-                // Interstitial ad is loaded and ready to be displayed
-                // Show the ad
-                adReady = true;
-                checkAdsRequisite();
-            }
-
-            @Override
-            public void onAdClicked(Ad ad) {
-                // Ad clicked callback
-            }
-
-            @Override
-            public void onLoggingImpression(Ad ad) {
-                // Ad impression logged callback
-            }
-        };
-
-        // For auto play video ads, it's recommended to load the ad
-        // at least 30 seconds before it is shown
-        interstitialAd.loadAd(
-                interstitialAd.buildLoadAdConfig()
-                        .withAdListener(interstitialAdListener)
-                        .build());
     }
 
-    protected void onDestroy() {
-        if (interstitialAd != null) {
-            interstitialAd.destroy();
-        }
-        super.onDestroy();
-    }
     /**
      * Get the question from xml asset file and charge it to the
      * Question representation named questionLevel
@@ -449,9 +417,9 @@ public class QuestionActivity extends XmlParserActivity
 
         boolean testMode = EnvironmentModeHandler.getEnvironmentModeHandler().testMode();
         // Ad
-        if ( (adReady && interstitialAd != null) && !testMode)
+        if ( (adReady && mInterstitialAd != null) && !testMode)
         {
-            interstitialAd.show();
+            mInterstitialAd.show(this);
         }
         // Vibration
         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);

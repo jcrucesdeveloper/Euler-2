@@ -12,9 +12,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.facebook.ads.AudienceNetworkAds;
 import com.jorgecruces.euler2.R;
 import com.jorgecruces.euler2.sound.MediaPlayerReproducer;
 
@@ -55,8 +57,6 @@ public class MainActivity extends AppCompatActivity
         // At the start we fade and select a quote
         fadeInAnimation();
         selectQuote();
-
-
     }
 
     /**
@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity
      */
     public void initializeAds()
     {
-        AudienceNetworkAds.initialize(this);
+        MobileAds.initialize(this, initializationStatus -> {
+        });
     }
 
     /**
@@ -75,7 +76,6 @@ public class MainActivity extends AppCompatActivity
     {
         // Sound
         MediaPlayerReproducer.getInstance().reproduceClickSound(this);
-
         Intent intentNumbersLevel = new Intent(getApplicationContext(), NumbersLevelsActivity.class);
         startActivity(intentNumbersLevel);
 

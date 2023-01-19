@@ -36,8 +36,8 @@ dependencies {
     // Added by me
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'io.github.kexanie.library:MathView:0.0.6'
-    implementation 'com.facebook.android:audience-network-sdk:6.+'
-    implementation 'com.ironsource.adapters:facebookadapter:4.3.34'
+    implementation 'com.google.android.gms:play-services-ads-lite:21.4.0'
+
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
