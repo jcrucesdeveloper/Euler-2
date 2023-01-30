@@ -140,11 +140,11 @@
     </question>
 
     <question number="18">
-        <questionLabel>-14 = x + -7</questionLabel>
+        <questionLabel>-14 = x - 7</questionLabel>
         <alternative1>21</alternative1>
-        <alternative2>-7</alternative2>
+        <alternative2>7</alternative2>
         <alternative3>12</alternative3>
-        <correctAlternative>7</correctAlternative>
+        <correctAlternative>-7</correctAlternative>
     </question>
 
     <question number="19">
@@ -287,8 +287,8 @@
         <questionLabel>4(x - 6) = 4</questionLabel>
         <alternative1>4</alternative1>
         <alternative2>8</alternative2>
-        <alternative3>7</alternative3>
-        <correctAlternative>6</correctAlternative>
+        <alternative3>6</alternative3>
+        <correctAlternative>7</correctAlternative>
     </question>
 
     <question number="37">
@@ -370,7 +370,7 @@
         <alternative1>9</alternative1>
         <alternative2>-7</alternative2>
         <alternative3>3</alternative3>
-        <correctAlternative>7</correctAlternative>
+        <correctAlternative>1</correctAlternative>
     </question>
 
     <question number="47">
@@ -518,11 +518,11 @@
     </question>
 
     <question number="65">
-        <questionLabel>10x +47 = -16x + 7</questionLabel>
+        <questionLabel>2x + 47 = -6x + 7</questionLabel>
         <alternative1>7</alternative1>
         <alternative2>5</alternative2>
         <alternative3>4</alternative3>
-        <correctAlternative>9</correctAlternative>
+        <correctAlternative>-5</correctAlternative>
     </question>
 
     <question number="66">
@@ -566,11 +566,11 @@
     </question>
 
     <question number="71">
-        <questionLabel>-4 -5x = 5x - 6</questionLabel>
+        <questionLabel>-4 - 5x = 5x + 6</questionLabel>
         <alternative1>8</alternative1>
         <alternative2>4</alternative2>
-        <alternative3>3</alternative3>
-        <correctAlternative>6</correctAlternative>
+        <alternative3>-3</alternative3>
+        <correctAlternative>-1</correctAlternative>
     </question>
 
     <question number="72">
