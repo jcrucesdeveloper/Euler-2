@@ -18,6 +18,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
@@ -62,6 +63,9 @@ public class QuestionActivity extends XmlParserActivity
     private boolean adReady;
     private InterstitialAd mInterstitialAd;
 
+    private AdView mAdView;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -74,6 +78,11 @@ public class QuestionActivity extends XmlParserActivity
         renderLabels();
         renderQuestion();
         renderAlternatives();
+
+        // Banner
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     /**
@@ -133,8 +142,6 @@ public class QuestionActivity extends XmlParserActivity
                         mInterstitialAd = null;
                     }
                 });
-
-
     }
 
     /**
