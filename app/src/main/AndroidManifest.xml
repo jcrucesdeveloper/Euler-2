@@ -17,7 +17,7 @@
         android:theme="@style/Theme.Euler2">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8814283715092277~7517420998"/>
+            android:value="ca-app-pub-2905296254158275~8236320265"/>
         <activity
             android:name=".activities.MainActivity"
             android:exported="true"

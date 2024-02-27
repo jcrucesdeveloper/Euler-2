@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.jorgecruces.euler2"
         minSdk 21
-        targetSdk 31
-        versionCode 6
-        versionName "1.5"
+        targetSdk 33
+        versionCode 7
+        versionName "1.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,7 +36,9 @@ dependencies {
     // Added by me
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'io.github.kexanie.library:MathView:0.0.6'
-    implementation 'com.google.android.gms:play-services-ads-lite:21.4.0'
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+
 
 
     testImplementation 'junit:junit:4.+'

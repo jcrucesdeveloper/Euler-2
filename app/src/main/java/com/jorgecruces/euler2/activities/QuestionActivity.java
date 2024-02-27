@@ -129,7 +129,7 @@ public class QuestionActivity extends XmlParserActivity
     public void initializeInterstitialAd()
     {
         AdRequest adRequest = new AdRequest.Builder().build();
-        InterstitialAd.load(this,"ca-app-pub-8814283715092277/4772688211", adRequest,
+        InterstitialAd.load(this,"ca-app-pub-2905296254158275/8114344413", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
